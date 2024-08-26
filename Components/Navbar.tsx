@@ -4,7 +4,7 @@ import React from "react";
 export default function MyNavbar() {
   return (
     <>
-      <header className="flex h-16 w-screen justify-center bg-clr1 text-white">
+      <div className="absolute top-[0px] flex h-16 w-screen justify-center bg-clr1 text-white">
         <nav className="flex items-center justify-end h-full sm:w-4/5 w-[95%] bg-transparent relative ">
           <span className="absolute left-0 sm:left-2 sm:h-2/3 h-2/4 sm:w-14 w-12 inline-block bg-[url('Assets/myLogo.png')] bg-center bg-cover bg-no-repeat cursor-pointer"></span>
           <ul className="flex h-full w-auto sm:mx-2 cursor-pointer">
@@ -24,7 +24,7 @@ export default function MyNavbar() {
             </li>
           </ul>
         </nav>
-      </header>
+      </div>
     </>
   );
 }
